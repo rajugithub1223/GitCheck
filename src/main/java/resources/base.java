@@ -28,6 +28,8 @@ public class base {
 		String browserName = System.getProperty("browser");
 		//String browserName = prop.getProperty("browser");
 		System.out.println(browserName);
+//		System.out.println(browserName);
+//		System.out.println(browserName);
 		
 		if(browserName.equals("chrome"))
 		{

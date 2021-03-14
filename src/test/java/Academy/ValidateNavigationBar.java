@@ -42,6 +42,9 @@ public class ValidateNavigationBar extends base {
 		Assert.assertTrue(l.getNavigationBar().isDisplayed());
 		log.info("Navigation Bar is displayed");
 		 System.out.println("Test completed");
+		 System.out.println("Test Success");
+		 System.out.println("Test Verfied");
+		 System.out.println("Tested");
 	//	Assert.assertFalse(false);
 		
 	//  .nav.navbar-nav.navbar-right>li>a

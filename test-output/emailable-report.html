@@ -31,76 +31,32 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">3</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">89.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">Academy.HomePage</td><td><a href="#m1"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1615313198627</td><td class="numi">11791</td></tr><tr class="failedodd"><td><a href="#m2"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1615313198627</td><td class="numi">11791</td></tr>
-<tr class="failedeven"><td rowspan="1">Academy.ValidateTitle</td><td><a href="#m3"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1615313210474</td><td class="numi">154</td></tr>
-<tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">Academy.HomePage</td><td><a href="#m4"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1615313178170</td><td class="numi">20449</td></tr><tr class="passedodd"><td><a href="#m5"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1615313178170</td><td class="numi">20449</td></tr>
-<tr class="passedeven"><td rowspan="1">Academy.ValidateNavigation</td><td><a href="#m6"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1615313210628</td><td class="numi">665</td></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">Academy.ValidateNavigationBar</td><td><a href="#m1"><b>initialize</b>  </a></td><td class="numi">1</td><td>1615749792542</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">Academy.ValidateNavigationBar</td><td><a href="#m2"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1615749792602</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">Academy.ValidateNavigationBar</td><td><a href="#m3"><b>validateAppNavBar</b>  </a></td><td class="numi">1</td><td>1615749792599</td><td class="numi">1</td></tr>
 </table>
-<h1>Test</h1>
-<h2 id="m1">Academy.HomePage:basePageNavigation</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
-<tr class="param stripe"><td>restrictedUser@gmail.com</td>
-<td>123456</td>
-<td>Non Restricted User</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="3">
-<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;sign_in&apos;]&quot;}
-  (Session info: chrome=88.0.4324.190)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-E359OF4O&apos;, ip: &apos;192.168.0.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_72&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\RAJUKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 478523cbbd6262d9abfba0a1601252c3
-*** Element info: {Using=css selector, value=a[href*=&apos;sign_in&apos;]}</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-<br/>at pageObjects.LandingPage.getLogin(LandingPage.java:28)
-<br/>at Academy.HomePage.basePageNavigation(HomePage.java:32)
-<br/>25 lines not shown
-</td></tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">Academy.ValidateTitle:basePageNavigation</h2>
+<h1>Default test</h1>
+<h2 id="m1">Academy.ValidateNavigationBar:initialize</h2>
 <div style="padding-left:3em">
-<p>expected [FEATURED COURSES] but found [Featured Courses]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertEquals(Assert.java:123)
-<br/>at org.testng.Assert.assertEquals(Assert.java:176)
-<br/>at org.testng.Assert.assertEquals(Assert.java:186)
-<br/>at Academy.ValidateTitle.basePageNavigation(ValidateTitle.java:34)
-<br/>25 lines not shown
+<p>E:\Raju_Selenium\E2EProject\src\main\java\resources\data.properties (The system cannot find the path specified)</p>
+java.io.FileInputStream.open0(Native Method)
+<br/>at java.io.FileInputStream.open(Unknown Source)
+<br/>at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+<br/>at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+<br/>at resources.base.initializeDriver(base.java:25)
+<br/>at Academy.ValidateNavigationBar.initialize(ValidateNavigationBar.java:30)
+<br/>23 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">Academy.HomePage:basePageNavigation</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
-<tr class="param stripe"><td>nonrestrictedUser@gmail.com</td>
-<td>12345</td>
-<td>Restricted User</td>
-</tr>
-</table>
+<h2 id="m2">Academy.ValidateNavigationBar:tearDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">Academy.ValidateNavigation:basePageNavigation</h2>
+<h2 id="m3">Academy.ValidateNavigationBar:validateAppNavBar</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

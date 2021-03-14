@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Academy.HomePage">
+      <class name="Academy.ValidateNavigationBar">
         <methods>
-          <include name="basePageNavigation" invocation-numbers="1"/>
           <include name="initialize"/>
-          <include name="tearDown"/>
+          <include name="validateAppNavBar"/>
         </methods>
-      </class> <!-- Academy.HomePage -->
+      </class> <!-- Academy.ValidateNavigationBar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
