@@ -41,10 +41,10 @@ public class ValidateNavigationBar extends base {
 		//compare the text from the browser with actual text.-Error..
 		Assert.assertTrue(l.getNavigationBar().isDisplayed());
 		log.info("Navigation Bar is displayed");
-		 System.out.println("Test completed");
-		 System.out.println("Test Success");
-		 System.out.println("Test Verfied");
-		 System.out.println("Tested");
+		 System.out.println("Test completed 100%");
+		 System.out.println("Test Success 100%");
+		 System.out.println("Test Verfied 100%");
+		 System.out.println("Tested 100%");
 	//	Assert.assertFalse(false);
 		
 	//  .nav.navbar-nav.navbar-right>li>a
