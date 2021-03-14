@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 32.506 s <<< FAILURE! - in TestSuite
+Academy.HomePage.initialize  Time elapsed: 29.927 s  <<< FAILURE!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=88.0.4324.190)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-E359OF4O', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_72'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\RAJUKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 02798b50c84b435e8c0657ba3a34de9d
+	at Academy.HomePage.initialize(HomePage.java:21)
+
