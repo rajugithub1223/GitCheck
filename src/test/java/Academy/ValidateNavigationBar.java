@@ -45,6 +45,11 @@ public class ValidateNavigationBar extends base {
 		 System.out.println("Test Success 100%");
 		 System.out.println("Test Verfied 100%");
 		 System.out.println("Tested 100%");
+		 
+		 System.out.println("I love  ");
+		 System.out.println("u Rangoli.");
+		 
+		 
 	//	Assert.assertFalse(false);
 		
 	//  .nav.navbar-nav.navbar-right>li>a
